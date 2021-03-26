@@ -1,0 +1,246 @@
+@media (max-width:1400px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    .header-button {
+        width: 12%;
+    }
+}
+@media (max-width:1200px){
+    .video-left {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .video-content-right h1 {
+        font-size: 39px;
+        font-weight: 500;
+    }
+    .video-content-right {
+        width: 100%;
+        float: inherit;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media (max-width:1090px) {
+    .header-menu ul {
+        margin-left: 52px;
+    }
+    .header-menu ul li a {
+        padding: 0px 7px;
+        font-size: 17px;
+    }
+    .header-logo img {
+        width: 47px;
+    }
+    .header-logo img {
+        margin-top: 14px;
+    }
+    .header-logo span {
+        font-size: 17px;
+        margin-top: 28px;
+    }
+    .header-button {
+        width: 12%;
+    }
+    .header-button a {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+}
+.header-menu span{
+    display: none;
+}
+
+@media (max-width:992px){
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header-logo img {
+        float: none;
+    }
+    .header-logo span {
+        position: relative;
+        top: -19px;
+    }
+    .header-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-menu {
+        width: 100%;
+    }
+    .header-button {
+        width: 200px;
+        position: absolute;
+        right: 12px;
+        text-align: right;
+        top: 52px;
+    }
+    .header-menu span {
+        font-size: 22px;
+        color: #6278df;
+        display: inline-block;
+        margin-bottom: 14px;
+        display: block;
+    }
+    .header-button a {
+        font-size: 16px;
+        /* margin-top: 6px; */
+    }
+    .header {
+        position: relative;
+    }
+    .services .section-title h1 {
+        font-size: 35px;
+    }
+    .services .services-box {
+        width: 47.3%;
+    }
+    .services-box:nth-child(2n+2) {
+        margin-right: 0px;
+    }
+    .subscribe h2 {
+        font-size: 30px;
+        margin-bottom: 52px;
+    }
+    .de-btn {
+        width: 71%;
+        margin-bottom: 20px;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .i-item {
+        width: 100%;
+    }
+    .content-left-map {
+        width: 100%;
+    }
+    .content-right-form {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+@media (max-width:768px){
+    .middle h2 {
+        font-size: 40px;
+        margin: 20px 0px;  
+    }
+    .middle h3 {
+        font-size: 24px;
+    }
+    .default-btn {
+        font-size: 17px;
+        padding: 16px 12px;
+    }
+    .banner{
+        padding: 98px 0px;
+    }
+    .services .section-title h1 {
+        font-size: 33px;
+        font-weight: 500;
+    }
+    .services .services-box {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-right: 0;
+    }
+    .prizing-box1 {
+        width: 100%;
+        box-shadow: 3px 4px 30px 0 rgba(64,87,191,0.1);
+        margin-bottom: 22px;
+        margin-right: 0;
+    }
+    .team-members .member {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+    .heading-h {
+        width: 100%;
+        float: inherit;
+    }
+    .heading-p {
+        width: 100%;
+        float: inherit;
+    }
+   
+}
+@media (max-width:576px){
+    .team-members .member img {
+        width: 100%;
+    }
+    .team-members .member {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .item {
+        width: 100%;
+    }
+    .video-content-right h1 {
+        font-size: 26px;
+        text-align: start;
+    }
+    .video-content-right p {
+        font-size: 15px;
+        line-height: 26px;
+        text-align: start;
+    }
+    .services .section-title h1 {
+        font-size: 23px;
+    }
+    .services .section-title p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:410px){
+    .default-btn {
+        font-size: 15px;
+        padding: 14px 11px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .middle h2 {
+        font-size: 29px;
+        margin: 14px 0px;
+    }
+    .middle h3 {
+        font-size: 18px;
+    }
+    .services .services-context p {
+        font-size: 17px;
+    }
+    .services-context h2 {
+        font-size: 17px;
+    }
+    .prizing-heading h2 {
+        font-size: 26px;
+    }
+    .prizing-box1 .prizing-content ul li {
+        font-size: 17px;
+    }
+    .team-heading h2 {
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .heading-h h1 {
+        font-size: 31px;
+    }
+    .section-title.newslatter-title.text-center h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .sub-btn {
+        width: 173px;
+        padding: 18px 17px;
+    }
+}

@@ -170,8 +170,7 @@
     .heading-p {
         width: 100%;
         float: inherit;
-    }
-   
+    } 
 }
 @media (max-width:576px){
     .team-members .member img {
@@ -199,6 +198,9 @@
     }
     .services .section-title p {
         font-size: 20px;
+    }
+    .t-content p::before {
+        font-size: 47px;
     }
 }
 
